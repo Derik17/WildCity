@@ -9,7 +9,7 @@
 .index{
     width:100vw;
     height:100vh;
-    background-color:rgba(173, 0, 0,0.8);
+    background:linear-gradient(rgba(165, 42, 42,1),rgba(202, 216, 8, 0.5));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,10 +24,7 @@
     padding:1%;
     background-position:center;
     background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-
-
-
+    background-repeat: no-repeat; 
 }
 
 .entrada {
@@ -69,11 +66,15 @@
 .enter {
     width:15vw;
     height:10vh;
-    font-weight: 800;
-    border-radius: 100px;   
+    font-weight: 600;   
     border-color: brown;
+    border-radius: 15px;
+    border-bottom: solid 1px;
+    border-right: solid 3px;
+    border-top: none;
+    border-left: none;
     font-size: 2.5vh;
-    color:rgb(0, 0, 0);
-    background: rgba(165, 42, 42,0.6);
+    color:brown;
+    background: rgba(242, 255, 66, 0.4);
 }
 
