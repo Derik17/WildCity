@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+a{
+    color: inherit;
+}
+
 .index{
     width:100vw;
     height:100vh;
@@ -48,8 +52,6 @@
     font-size: 10vh;
     color:brown;
     text-shadow: 5px 5px 10px rgb(255, 255, 255);
-    
-
 }
 
 .textoentrada h4{
@@ -74,7 +76,7 @@
     border-top: none;
     border-left: none;
     font-size: 2.5vh;
-    color:brown;
-    background: rgba(242, 255, 66, 0.4);
+    color:rgb(255, 255, 255);
+    background: brown;
 }
 
